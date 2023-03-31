@@ -23,13 +23,14 @@ import pygeoip
 
 def apache_output(line):
     split_line = line.split()
-
-    return {'remote_host': split_line[0],
-            'Date':split_line[3][1:12],
-            'Time':split_line[3][13:],
-            'apache_status': split_line[8],
-            'data_transfer': split_line[9],
-    }
+    return 'remote_host: '+split_line[0]+' Date: '+split_line[3][1:12]+' Time: '+split_line[3][13:]+' apache_status: '+split_line[8]+' data_transfer: '+split_line[9]
+    
+    # return {'remote_host': split_line[0],
+    #         'Date':split_line[3][1:12],
+    #         'Time':split_line[3][13:],
+    #         'apache_status': split_line[8],
+    #         'data_transfer': split_line[9],
+    # }
 
 def final_report(logfile):
     for line in logfile:
