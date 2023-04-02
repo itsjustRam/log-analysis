@@ -1,4 +1,4 @@
-# log-analysis
+# Server-log-analysis
 
 A simple network traffic analyzer
 
