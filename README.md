@@ -2,7 +2,7 @@
 
 A simple network traffic analyzer
 
-Building network analyzer to detect IP address which are nvolved in malicious activities such as spamming, hacking attempts, DDoS attacks.
+Building network analyzer to detect IP address which are involved in malicious activities such as spamming, hacking attempts, DDoS attacks.
 
 Done:
 
